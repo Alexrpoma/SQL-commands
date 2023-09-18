@@ -1,11 +1,15 @@
 -- Active: 1695046874741@@127.0.0.1@5432@db
 SELECT * FROM person;
 SELECT * FROM person LIMIT 5;
+SELECT * FROM person FETCH FIRST 5 ROW ONLY; -- standard sql query to limit 5
 SELECT * FROM person WHERE gender = 'Male';
 SELECT * FROM person WHERE gender = 'Female';
 SELECT * FROM person WHERE first_name LIKE 'A%'; -- names start with A...
 SELECT * FROM person WHERE email LIKE '%@g%'; -- email ...@g...
+SELECT first_name, email, country FROM person WHERE country = 'Brazil' OR country = 'Argentina' OR country = 'China';
+SELECT first_name, email, country FROM person WHERE country IN ('Brazil', 'Argentina', 'China');
 SELECT * FROM person ORDER BY last_name LIMIT 10;
+SELECT * FROM person OFFSET 10;
 SELECT first_name, last_name FROM person LIMIT 8 OFFSET 5;
 SELECT Count(p) FROM person p WHERE gender = 'Male'; -- Total male
 SELECT Count(p) FROM person p WHERE gender = 'Female'; -- Total female
