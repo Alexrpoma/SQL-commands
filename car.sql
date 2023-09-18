@@ -1,0 +1,12 @@
+insert into car (id, make, model, model_year, person_id) values ('5b1fcb7e-044a-44b4-9ff9-cc16c2efc15d', 'Toyota', 'FJ Cruiser', 2018, 'edbadc45-485a-496d-922b-adb7dab8116c');
+insert into car (id, make, model, model_year, person_id) values ('8a556b73-9685-4934-ac40-0f6a6e5857e8', 'Toyota', 'Venza', 1990, '3062bd85-e9eb-485f-9ff3-5f5578b3b493');
+insert into car (id, make, model, model_year, person_id) values ('87cff181-0187-4a61-b828-041a9d95315b', 'Chrysler', 'Imperial', 2012, '6349c5af-1455-42dd-a605-8e1c31187da3');
+insert into car (id, make, model, model_year, person_id) values ('0bb920af-f984-4633-868f-f52fc497374c', 'Mitsubishi', 'Lancer Evolution', 1981, '2b77c5b6-695c-4783-a2f4-156f81df7742');
+insert into car (id, make, model, model_year, person_id) values ('9a67dc46-946b-4d98-8311-53c53b70a019', 'Pontiac', 'Grand Am', 1986, 'c52458d2-465a-4165-861e-5fafccb58ab8');
+insert into car (id, make, model, model_year, person_id) values ('8fcef72f-a7c3-4ffd-bb50-2445ca2e724b', 'Rolls-Royce', 'Phantom', 2014, '5bee68da-5c57-40eb-8014-ebea1c654aa4');
+insert into car (id, make, model, model_year, person_id) values ('f425dc66-17b3-4387-a7f5-f4dc159ca799', 'Audi', 'A6', 1998, 'd268d78b-075c-415e-888c-016220163626');
+insert into car (id, make, model, model_year, person_id) values ('208f012c-3ea3-4b2c-ae26-7c0eccc22440', 'Mercedes-Benz', 'S-Class', 1989, '748fc790-ca1e-4ecf-b0e6-7e775b755df2');
+insert into car (id, make, model, model_year, person_id) values ('ebf6ceff-b591-4e73-97bd-4df43ab18d02', 'Lexus', 'SC', 2015, 'edbadc45-485a-496d-922b-adb7dab8116c');
+insert into car (id, make, model, model_year, person_id) values ('adcd3fc6-a739-4010-8a21-53cc9f1d774e', 'Infiniti', 'G', 2008, 'e880dfa5-3b1a-4d13-bbe2-58f79901626c');
+insert into car (id, make, model, model_year, person_id) values ('5a476f71-097e-45d3-be09-6aab0e6a580c', 'Chevrolet', 'Silverado', 1997, '15aa996f-29d2-45ce-9274-7da1bb0df192');
+insert into car (id, make, model, model_year, person_id) values ('0e63caf0-c3e1-4486-a309-58a1aed38298', 'Suzuki', 'Grand Vitara', 1996, '15aa996f-29d2-45ce-9274-7da1bb0df192');
