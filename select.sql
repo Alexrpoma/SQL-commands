@@ -9,6 +9,7 @@ SELECT * FROM person WHERE email LIKE '%@g%'; -- email ...@g...
 SELECT first_name, email, country FROM person WHERE country = 'Brazil' OR country = 'Argentina' OR country = 'China';
 SELECT first_name, email, country FROM person WHERE country IN ('Brazil', 'Argentina', 'China');
 SELECT * FROM person ORDER BY last_name LIMIT 10;
+SELECT * FROM person ORDER BY date_of_birth DESC LIMIT 10;
 SELECT * FROM person OFFSET 10;
 SELECT first_name, last_name FROM person LIMIT 8 OFFSET 5;
 SELECT Count(p) FROM person p WHERE gender = 'Male'; -- Total male
