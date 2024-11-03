@@ -38,8 +38,7 @@ CREATE TABLE person (
     created_at TIMESTAMP,
     updated_at TIMESTAMP,
     constraint fk_car_id foreign key (car_id) references car(id),
-    constraint unique_email unique (email),
-    constraint gender
+    constraint unique_email unique (email)
 );
 
  -- CREATE TABLE MYSQL
