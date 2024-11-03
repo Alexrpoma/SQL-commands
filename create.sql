@@ -27,6 +27,21 @@ CREATE TABLE person (
   CONSTRAINT unique_person_email UNIQUE(email)
 );
 
+CREATE TABLE person (
+    id uuid PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    gender GENDER,
+    date_of_birth DATE,
+    email VARCHAR(50),
+    car_id uuid,
+    created_at TIMESTAMP,
+    updated_at TIMESTAMP,
+    constraint fk_car_id foreign key (car_id) references car(id),
+    constraint unique_email unique (email),
+    constraint gender
+);
+
  -- CREATE TABLE MYSQL
 CREATE TABLE usuarios (
     id CHAR(36) PRIMARY KEY NOT NULL DEFAULT (UUID()),
