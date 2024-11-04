@@ -41,6 +41,16 @@ CREATE TABLE person (
     constraint unique_email unique (email)
 );
 
+CREATE TABLE person (
+    id UUID PRIMARY KEY,
+    date_of_birth TIMESTAMP(6) WITHOUT TIME ZONE,
+    email VARCHAR(255) UNIQUE,
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
+    gender VARCHAR(255),
+    CHECK (UPPER(gender) = ANY (ARRAY['MALE', 'FEMALE']))
+);
+
  -- CREATE TABLE MYSQL
 CREATE TABLE usuarios (
     id CHAR(36) PRIMARY KEY NOT NULL DEFAULT (UUID()),
